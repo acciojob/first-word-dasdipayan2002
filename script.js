@@ -1,10 +1,10 @@
-function firstWord(s) {
+function firstWord(str) {
   // your code here
-	let words = s.trim().split(' ');
+	let words = str.trim().split(' ');
     return words[0];
 }
 
 // Do not change the code below
 
-//const s = prompt("Enter String:");
+const s = prompt("Enter String:");
 alert(firstWord(s));
